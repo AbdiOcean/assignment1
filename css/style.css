@@ -1,0 +1,32 @@
+.heading2 {
+    font-size: .875rem;
+    font-family: NunitoSans,Nunito Sans,sans-serif;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.picture {
+    width: auto;
+    height: auto;
+}
+
+.content {
+    color: white;
+}
+
+.image {
+    z-index: 20;
+}
+
+.multiple {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+img {
+    will-change: transform;
+    opacity: 1;
+    display: block;
+}
