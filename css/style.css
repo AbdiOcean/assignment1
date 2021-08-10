@@ -14,6 +14,7 @@
     color: white;
     position: absolute;
     top: 10px;
+    padding-left: 20px;
 }
 
 .image {
@@ -32,4 +33,15 @@ img {
     will-change: transform;
     opacity: 1;
     display: block;
+}
+
+h2{
+    letter-spacing: .03125rem;
+    line-height: 1;
+    text-transform: uppercase;
+    --tw-text-opacity: 1;
+    color: rgba(243,249,253,var(--tw-text-opacity));
+    font-weight: 700;
+    font-size: .875rem;
+    margin-bottom: 2rem;
 }
