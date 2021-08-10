@@ -1,3 +1,8 @@
+.body {
+    margin: 3px 29px;
+    background: blue;
+}
+
 .heading2 {
     font-size: .897rem;
     font-family: NunitoSans,Nunito Sans,sans-serif;
@@ -6,9 +11,8 @@
 }
 
 .picture {
-    width: 25cm;
-    height: 25cm;
-    margin-left: auto;
+    width: 17cm;
+    height: 13cm;
     margin-right: auto;
 }
 
@@ -16,7 +20,7 @@
     color: white;
     position: absolute;
     top: 10px;
-    padding: 118px 130px 118px 60px;
+    padding: 11px 130px 118px 36px;
 }
 
 .image {
@@ -73,15 +77,15 @@ h2{
     font-size: 1.25rem;
 }
 
-.glow {
+.click {
     border: none;
     padding: 2px;
-    background-color: orange;
+    background-color: rgb(255, 102, 0);
     border-radius: 18px;
     cursor: pointer;
 }
 
-#glow {
+#click {
     padding: 9px;
     font-weight: 700;
     color: white;
