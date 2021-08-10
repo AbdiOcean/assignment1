@@ -14,7 +14,7 @@
     color: white;
     position: absolute;
     top: 10px;
-    padding-left: 20px;
+    padding-left: 80px;
 }
 
 .image {
@@ -43,5 +43,31 @@ h2{
     color: rgba(243,249,253,var(--tw-text-opacity));
     font-weight: 700;
     font-size: .875rem;
+}
+
+.position {
+    top: 200px;
+    position: relative;
+}
+
+.header {
+    top: 220px;
+}
+
+.simple {
+    font-size: 2rem;
+    font-weight: 800;
+    
+    
+}
+
+.paragraph {
     margin-bottom: 2rem;
+    font-family: NunitoSans,Nunito Sans,sans-serif;
+}
+
+.info {
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 1.25rem;
 }
