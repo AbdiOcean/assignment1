@@ -6,16 +6,19 @@
 }
 
 .picture {
-    width: auto;
-    height: auto;
+    width: fit-content;
+    height: fit-content;
 }
 
 .content {
     color: white;
+    position: absolute;
+    top: 10px;
 }
 
 .image {
-    z-index: 20;
+    position: relative;
+    width: 100%;
 }
 
 .multiple {
