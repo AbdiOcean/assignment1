@@ -11,8 +11,8 @@
 }
 
 .picture {
-    width: 17cm;
-    height: 13cm;
+    width: 19cm;
+    height: 11cm;
     margin-right: auto;
 }
 
@@ -27,7 +27,6 @@
     position: relative;
     width: 100%;
 }
-
 .multiple {
     top: 0;
     right: 0;
@@ -41,24 +40,25 @@ img {
     display: block;
     border-radius: 20px;
 }
-
 h2{
     letter-spacing: .03125rem;
     line-height: 1;
     text-transform: uppercase;
-    --tw-text-opacity: 1;
-    color: rgba(243,249,253,var(--tw-text-opacity));
     font-weight: 700;
     font-size: .875rem;
 }
 
 .position {
-    top: 200px;
+    top: 20px;
     position: relative;
+    width: 20cm;
+    height: 10cm;
 }
 
 .header {
-    top: 220px;
+    position: absolute;
+    color: white;
+    top: 20px
 }
 
 .simple {
@@ -80,14 +80,57 @@ h2{
 .click {
     border: none;
     padding: 2px;
-    background-color: rgb(255, 102, 0);
-    border-radius: 18px;
+    background-color: rgb(14, 29, 241);
+    border-radius: 24px;
     cursor: pointer;
+    width: 153px;
+    height: 56px;
+    position: relative;
 }
 
-#click {
+.click:hover {
+    background-color: rgb(0, 178, 248);
+    padding-right: 20px;
+    transition: 0.5s;
+}
+
+.click span:after {
+    content: '\00bb';
+    position: absolute;
+    transition: 0.5s;
+}
+
+.click span {
     padding: 9px;
     font-weight: 700;
     color: white;
-    font-size: .875rem;
+    font-size: .87rem;
+}
+
+.click span:hover {
+    color: blue;
+    transition: 0.3s;
+}
+
+.click:active {
+    transform: translateY(2px);
+}    
+
+.inline {
+    text-decoration: underline orangered;
+    font-weight: 700;
+    line-height: 1.5;
+    font-family: NunitoSans,Nunito Sans,sans-serif;
+    cursor: pointer;
+}
+
+.inline:hover {
+    text-decoration: underline white;
+    color: orangered;
+    transition: 0.5s;
+}
+
+.inline1 {
+    margin-left: auto;
+    line-height: 4cm;
 }
