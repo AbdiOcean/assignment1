@@ -130,6 +130,10 @@ h2{
     transition: 0.5s;
 }
 
+.inline:active {
+    transform: translateY(3px);
+}
+
 .inline1 {
     margin-left: auto;
     line-height: 4cm;
