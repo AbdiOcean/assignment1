@@ -1,6 +1,7 @@
-.body {
+body {
     margin: 3px 29px;
     background: blue;
+    color: white;
 }
 
 .heading2 {
@@ -14,12 +15,14 @@
     width: 19cm;
     height: 11cm;
     margin-right: auto;
+    position: absolute;
+    top: 57px;
 }
 
 .content {
     color: white;
     position: absolute;
-    top: 10px;
+    top: 57px;
     padding: 11px 130px 118px 36px;
 }
 
@@ -37,7 +40,6 @@
 img {
     will-change: transform;
     opacity: 1;
-    display: block;
     border-radius: 20px;
 }
 h2{
@@ -58,7 +60,8 @@ h2{
 .header {
     position: absolute;
     color: white;
-    top: 20px
+    top: 20px;
+    float: left;
 }
 
 .simple {
@@ -137,4 +140,34 @@ h2{
 .inline1 {
     margin-left: auto;
     line-height: 4cm;
+}
+
+img.wrap-around-the-right-side {
+    float: right;
+    margin: 0 .75em .5em .75em;
+}
+
+p.no-wrap{
+    clear: both;
+}
+
+nav {
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
