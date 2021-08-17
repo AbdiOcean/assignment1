@@ -4,6 +4,10 @@ body {
     color: white;
 }
 
+p {
+    font-size: 20px;
+}
+
 .heading2 {
     font-size: .897rem;
     font-family: NunitoSans,Nunito Sans,sans-serif;
