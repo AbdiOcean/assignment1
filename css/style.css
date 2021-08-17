@@ -51,7 +51,7 @@ h2{
 }
 
 .position {
-    top: 20px;
+    top: 49px;
     position: relative;
     width: 20cm;
     height: 10cm;
@@ -60,7 +60,7 @@ h2{
 .header {
     position: absolute;
     color: white;
-    top: 20px;
+    top: 32px;
     float: left;
 }
 
@@ -148,7 +148,12 @@ img.wrap-around-the-right-side {
 }
 
 p.no-wrap{
-    clear: both;
+    clear: left;
+}
+
+.container {
+    top: 50px;
+    position: absolute;
 }
 
 nav {
@@ -170,4 +175,39 @@ a {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+}
+
+.mother {
+    position: absolute;
+    top: 438px;
+}
+
+.button1:hover {
+    background-color: white;
+    color: black;
+}
+
+.button1:active {
+    background-color: blue;
+    color: white;
+}
+
+.button2:hover {
+    background-color: white;
+    color: black;
+}
+
+.button2:active{
+    background-color: blue;
+    color: white;
+}
+
+.button3:hover {
+    background-color: white;
+    color: black;
+}
+
+.button3:active{
+    background-color: blue;
+    color: white;
 }
