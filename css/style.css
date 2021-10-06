@@ -215,3 +215,22 @@ a {
     background-color: blue;
     color: white;
 }
+
+.button4:hover {
+    color: black;
+    background-color: white;
+}
+
+.button4:active {
+    background-color: blue;
+    color: white;
+}
+
+.away {
+    padding-top: 72px;
+}
+
+td, th {
+    border:1px solid black;
+    padding: 11px;
+}
